@@ -1,0 +1,15 @@
+{
+  "name": "mogas-time-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gestor de horários com alarmes (Capacitor + HTML/CSS/JS)",
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/local-notifications": "^6.1.0",
+    "@capacitor/preferences": "^6.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0"
+  }
+}

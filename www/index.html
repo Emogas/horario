@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#14213D">
+  <title>Mogas Time Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="top"></header>
+  <main id="view"></main>
+  <button id="fab" aria-label="Nova actividade">+</button>
+  <nav id="tabs">
+    <button data-v="hoje" class="on">Hoje</button>
+    <button data-v="semana">Semana</button>
+    <button data-v="stats">Estatísticas</button>
+    <button data-v="ajustes">Ajustes</button>
+  </nav>
+  <div id="modal" hidden></div>
+  <div id="toast" role="status"></div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
